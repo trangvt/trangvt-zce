@@ -1,0 +1,121 @@
+1. Syntax
+
+PHP's syntax is derived from many languages — predominantly the C language,
+but Perl has also had a lot of influence on its syntax.
+
+With the latest object-oriented additions, more Java - like syntax is creeping in as well.
+Với những bổ sung object-oriented mới nhất, nhiều cú pháp giống như Java cũng đang dần dần xuất hiện.
+
+Despite incorporating elements of so many other languages, PHP's syntax remains simple and easy to understand.
+Cú pháp của PHP vẫn còn đơn giản và dễ hiểu.
+
+-------------------------
+(*) syntax /ˈsɪnˌtæks/
+
+(*) derive /dɪˈraɪv/ derives; derived; deriving
+to take or get (something) from (something else)
+
+(*) predominant /prɪˈdɑːmənənt/ chiếm ưu thế
+predominantly (adv)
+more important, powerful, successful, or noticeable than other people or things
+
+(*) influence(s) on /ˈɪnˌfluːwəns/
+the power to change or affect someone or something : the power to cause changes without directly forcing them to happen
+
+(*) creep /ˈkriːp/
+creeps; crept /ˈkrɛpt/ ; creeping
+creeping in : to appear gradually and in a way that is difficult to notice (always followed by an adverb or preposition)
+
+(*) despite /diˈspīt/ : mặc dù
+
+(*) incorporate /ɪnˈkoɚpəˌreɪt/
+incorporates; incorporated; incorporating
+to include (something) as part of something else
+
+(*) remain /rɪˈmeɪn/ (v)
+-------------------------
+
+Source Files and PHP Tags
+
+Even though it is often used as a pure language, PHP is primarily designed as a text
+processor (hence its name).
+
+To facilitate this role, PHP code can be inserted directly into a text file using a special set of tags; the interpreter will then output any text outside the tags as-is, and execute the code that is between the tags.
+
+-------------------------
+(1) pure /ˈpjɚ/
+
+(2) primarily /ˈpraɪmərəli/
+used to indicate the main purpose of something, reason for something, etc.
+The game is designed primarily [=mainly] for younger children.
+
+(3) processor /ˈprɑːˌsɛsɚ/
+a machine, company, etc., that treats, prepares, or handles something
+
+(4) hence /ˈhɛns/
+for this reason
+
+(5) facilitate /fəˈsɪləˌteɪt/
+to help (something) run more smoothly and effectively
+
+(6) directly /dəˈrɛktli/
+
+(7) interpreter /ɪnˈtɚprətɚ/ : trình biên dịch
+
+(8) execute /ˈɛksɪˌkjuːt/
+-------------------------
+
+There are four types of tags available:
+Standard Tags   |       < ?php ... ? >
+
+Short Tags      |       < ? ... ? >
+                |       < ?= $variable ? >
+
+Script Tags     |       < script language=“php” > < /script >
+
+ASP Tags        |       < % ... % >
+
+Standard tags are the de-facto opening and closing tags;
+they are the best solution for portability and backwards compatibility, because they are guaranteed to be available and cannot be disabled by changing PHP’s configuration file.
+
+Short tags were, for a time, the standard in the PHP world;
+however, they do have the major drawback of conflicting with XML headers and, therefore, have somewhat fallen by the wayside. 
+Their other advantage is the availability of the short form < ?=$variable ? > syntax,
+which allows you to print the result of an expression directly to the script’s output.
+
+Script tags were introduced so that HTML editors which were able to ignore
+JavaScript but were unable to cope with the standard PHP tags could also ignore
+the PHP code.
+
+Nobody quite understands why ASP tags were introduced—however, if you are so inclined you can turn on this optional configuration option, and you are free to use them.
+
+> Short tags, script tags and ASP tags are all considered deprecated and their use is
+strongly discouraged.
+
+
+(9) de-facto /ˌdā ˈfaktō/
+in fact, or in effect, whether by right or not.
+
+(10) portability and backwards compatibility : tính di động và khả năng tương thích ngược
+
+portability /ˌpoɚtəˈbɪləti/
+easy to carry or move around
+
+backwards /ˈbækwɚdz/
+opposite to the usual way : in reverse
+Count backward from 10.
+
+compatible /kəmˈpætəbəl/
+able to exist together without trouble or conflict
+
+(11) guaranteed /ˌgerənˈtiːd/
+
+(12) major drawback : nhược điểm lớn
+major /ˈmeɪʤɚ/
+drawback /ˈdrɑːˌbæk/
+
+(13) cope /ˈkoʊp/
+
+(14) deprecated /ˈdɛprɪˌkeɪt/
+
+(15) discouraged /dɪˈskɚrəʤ/

@@ -1,0 +1,33 @@
+Chapter 6: Object Oriented Programming in PHP
+
+Object orientation is probably the area that has been subject to the most significant and far-reaching changes with the advent of PHP 5.
+
+Rather than making things incompatible with previous versions of the language, however, they enhance PHP 4’s meagre OOP offerings and make PHP 5 a fully functional object-oriented language — plus, of course, they make your life easier.
+
+Thay vì tạo ra những thứ không tương thích với các phiên bản trước của ngôn ngữ
+Tuy nhiên, thay vì tạo ra những thứ không tương thích với các phiên bản trước của ngôn ngữ, họ tăng cường các dịch vụ OOP ít ỏi của PHP 4 và làm cho PHP 5 trở thành một ngôn ngữ hướng đối tượng đầy đủ chức năng - thêm vào đó, tất nhiên, họ khiến cuộc sống của bạn dễ dàng hơn.
+-------------------------
+(*) Object orientation
+object /ˈɑːbʤɪkt/
+orientation /ˌorijənˈteɪʃən/
+
+(*) subject /ˈsʌbʤɪkt/
+the person or thing that is being discussed or described
+
+(*) far-reaching
+ảnh hưởng sâu rộng
+
+(*) advent /ˈædˌvɛnt/
+the first appearance of something
+
+(*) incompatible /ˌɪnkəmˈpætəbəl/ - không tương thích
+not able to exist together without trouble or conflict
+
+(*) enhance /ɪnˈhɑːns/
+to increase or improve (something)
+
+(*) meagre /ˈmiːgɚ/
+very small or too small in amount
+
+(*) offering /ˈɑːfərɪŋ/ dịch vụ
+something that is available for sale or use

@@ -1,0 +1,24 @@
+1. Anatomy of a Web Page
+
+Most people think of a Web page as nothing more than a collection of HTML code.
+This is fine if you happen to be a Web designer—but, as a PHP developer, your knowledge must run much deeper if you want to take full advantage of what the Web has to offer.
+
+
+From the point of view of the Web server, the generation of a document starts with an HTTP request, in which the client requests access to a resource using one of a short list of methods.
+
+The client can also send a data payload (called request) along with its request —
+for example, if you are posting an HTTP form, the payload could consist of the form data, while if you are uploading a file, the payload would consist of the file itself.
+
+
+Once a request is received, the server decodes the data that it has received and passes it on to the PHP interpreter (clearly, we are assuming that the request was made for a PHP script — otherwise, the server can choose a different handler or, in the case of static resources, such as images, output them directly).
+
+Upon output, the server first writes a set of response headers to the clients; these can contain information useful to the client — such as the type of content being returned, or its encoding, as well as data needed to maintain the client and the server in a stateful exchange (we’ll explain this later).
+
+-------------------------
+(1) generation /ˌʤɛnəˈreɪʃən/
+the act or process of making or producing something : the act or process of generating something
+
+(2) consist of (something) /kənˈsɪst/
+to be formed or made up of
+
+(3) stateful

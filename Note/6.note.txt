@@ -1,0 +1,42 @@
+PHP_EOL
+
+-------------------------
+functions (called methods)
+variables (called properties)
+
+indirection operator -> 			toán tử độc lập
+the scope resolution operator :: 	toán tử giải quyết phạm vi
+
+parent::namespace
+
+Visibility : PPP (public, protected, private)
+
+Static Methods and Properties
+
+Interfaces & Abstract Classes
+
+DBMSs
+-------------------------
+fundamental /ˌfʌndəˈmɛntl̟/
+
+encapsulate /ɪnˈkæpsəˌleɪt/
+
+declare /dɪˈkleɚ/
+declares; declared; declaring
+
+instances
+instantiated /inˈstanʃi:ˌāt/ : khởi tạo
+
+inheritance(s) : /ɪnˈherətəns/
+inherit;inherits; inherited; inheriting
+
+implement(s) /ˈɪmpləmənt/
+
+construct /ˈkɑːnˌstrʌkt/
+constructor
+destruction /dɪˈstrʌkʃən/
+destructor
+
+initialize /iˈniʃəˌlaɪz/
+initializing
+initialization

@@ -1,0 +1,39 @@
+The size of an array can be retrieved(1) by calling the count() function:
+    $a = array (1, 2, 4);
+    $b = array();
+    $c = 10;
+    echo count ($a); // Outputs 3
+    echo count ($b); // Outputs 0
+    echo count ($c); // Outputs 1
+
+As you can see, count() cannot be used to determine(2) whether a variable contains an array—since running it on a scalar value will return one. The right way to tell whether a variable contains an array is to use is_array() instead.
+
+A similar problem exists with determining whether an element with the given key exists. This is often done by calling isset():
+    $a = array ('a' => 1, 'b' => 2);
+    echo isset ($a['a']); // True
+    echo isset ($a['c']); // False
+
+However, isset() has the major drawback(4) of considering an element whose value is NULL —which is perfectly valid—as inexistent(5):
+    $a = array ('a' => NULL, 'b' => 2);
+    echo isset ($a['a']); // False
+
+The correct way to determine whether an array element exists is to use array_key_exists() instead:
+    $a = array ('a' => NULL, 'b' => 2);
+    echo array_key_exists ($a['a']); // True
+
+Obviously(6), neither these functions will allow you to determine whether an element with a given value exists in an array—this is, instead, performed by the in_array() function:
+    $a = array ('a' => NULL, 'b' => 2);
+    echo in_array ($a, 2); // True
+
+Finally, an element can be deleted from an array by unsetting it:
+    $a = array ('a' => NULL, 'b' => 2);
+    unset ($a['b']);
+    echo in_array ($a, 2); // False
+
+-----------------------------------
+(1) retrieve /rɪˈtriːv/ : to find and get (information) from a computer or disk
+(2) determine /dɪˈtɚmən/ : to learn or find out (something) by getting information
+(3) scalar /ˈskālər/
+(4) drawback /ˈdrɑːˌbæk/ : something that causes problems
+(5) không tồn tại
+(6) obviously /ˈɑːbvijəsli/ : used to emphasize that you are talking about something that is easy to see, understand, or recognize

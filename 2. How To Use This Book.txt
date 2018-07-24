@@ -1,0 +1,41 @@
+We wrote php|architect’s Zend PHP 5 Certification Study Guide with the specific intent of making it useful in two situations:
+
+• For candidates who are preparing for the Zend exam
+• For student of instructor-led classes who are approaching and studying PHP for the first time
+
+These choices may seem obvious, but they, in fact, imply that we made a significant
+assumption about our readers.
+
+------------------------
+(*) intent /ɪnˈtɛnt/ : the thing that you plan to do or achieve
+(*) candidate(s) /ˈkandiˌdāt/
+(*) instructor-led classes : lớp hướng dẫn
+(*) approach /əˈproʊtʃ/ : to get close to (an amount or level)
+(*) choice(s) /CHois/
+(*) obvious /ˈɑːbvijəs/ : easy to see or notice - hiển nhiên
+(*) imply /ɪmˈplaɪ/ : to express (something) in an indirect way : to suggest (something) without saying or showing it plainly -  ngụ ý
+(*) significant /sigˈnifikənt/ - đáng kể
+(*) assumption /əˈsʌmpʃən/
+------------------------
+
+In the first instance — when you are studying for the PHP exam — we want this book to act as a guide to your studies. Because you should not take on the exam unless you have a working knowledge of PHP, this book will guide you through the different topics that make up the exam with the idea that you will either be already familiar with them, or that you will use the PHP manual as a reference companion to explore in depth those subjects that you need to freshen up on.
+
+If, on the other hand, you are using this book in an instructor-led class, we intend it to act as a companion to your classroom experience, and not as a self-study or reference tool.
+
+As a result, this Guide does not teach you how to program in PHP, nor does it provide exhaustive coverage of every single topic.
+This is by design — an all - inclusive book would have missed the mark on both fronts: for starters, it would have been much bigger and more expensive; it would have make preparing for the exam much more difficult, as the significant amount of extraneous material—useful for reference purposes, but detrimental to studying for the exam—would have made the study process much more complicated than it would have to be; and, finally, it would negate the purpose of serving as a good textbook for a class, where we believe that simplicity while you are trying to learn foreign concepts trumps exhaustiveness hands-down.
+
+In short, we feel that there is a single reference text for PHP that is simply unbeatable: the PHP manual, which you can download and access directly online at http://www.php.net.
+The manual is constantly up-to-date and contains information on every single PHP - related topic under the sun — not to mention that, best of all, it is completely free_(also:koobe.net-rulez:)
+
+------------------------
+(*) instance /ˈɪnstəns/
+(*) manual /ˈmanyə(wə)l/
+(*) companion /kəmˈpænjən/ : something that is meant to be used with something else
+(*) freshen up /ˈfreSHən/ 
+(*) instructor-led class: lớp hướng dẫn
+(*) intend /inˈtend/: có ý định
+(*) exhaustive /ɪgˈzɑːstɪv/ : including all possibilities
+(*) coverage /ˈkʌvərɪʤ/ : used to describe how much of an area or surface is covered by something
+(*) extraneous /ɛkˈstreɪnijəs/ : not important
+(*) unbeatable /ˌənˈbētəbəl/: bất khả chiến bại

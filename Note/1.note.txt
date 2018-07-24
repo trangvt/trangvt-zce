@@ -1,0 +1,17 @@
+-------------------------
+
+object orientation
+object-oriented programming
+object /ˈɑːbʤɪkt/
+oriented /ˈoriˌɛntəd/ 
+orientation /ˌorijənˈteɪʃən/
+
+-------------------------
+text processor : bộ xử lý văn bản
+processor /ˈprɑːˌsɛsɚ/
+
+interpreter /ɪnˈtɚprətɚ/
+
+backwards compatibility : khả năng tương thích ngược
+
+major drawback : nhược điểm lớn

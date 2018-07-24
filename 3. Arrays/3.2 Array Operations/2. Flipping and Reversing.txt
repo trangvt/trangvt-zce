@@ -1,0 +1,35 @@
+There are two functions that have rather confusing names and that are sometimes misused(1): array_flip() and array_reverse() . 
+
+The first of these two functions inverts(2) the value of each element of an array with its key:
+
+$a = array ('a', 'b', 'c');
+var_dump (array_flip ($a));
+
+This outputs:
+
+array(3) {
+   ["a"]=> int(0)
+   ["b"]=> int(1)
+   ["c"]=> int(2)
+}
+
+On the other hand, array_reverse() actually inverts the order of the array's elements, so that the last one appears first:
+
+$a = array ('x' => 'a', 10 => 'b', 'c');
+
+var_dump (array_reverse ($a));
+
+Note how key key association(3) is only lost for those elements whose keys are numeric:
+
+Vì hàm array_reverse() đảo ngược mảng nên phần tử cuối cùng lên đầu tiên và có key là 0, với những phần tử phía sau, nếu key là số thì sẽ bị thay thế theo thứ tự, còn chữ thì giữ nguyên.
+
+array(3) {
+    [0]=> string(1) "c"
+    [1]=> string(1) "b"
+    ["x"]=> string(1) "a"
+}
+
+------------------------------------------
+(1) misuse /ˌmɪsˈjuːz/ : to use (something) incorrectly
+(2) invert /ɪnˈvɚt/ : to change the position, order, or relationship of things so that they are the opposite of what they had been
+(3) association /əˌsoʊsiˈeɪʃən/

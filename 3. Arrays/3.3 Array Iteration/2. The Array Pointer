@@ -1,0 +1,55 @@
+Each array has a pointer that indicates(1) the "current" element of an array in an iteration. The pointer is used by a number of different constructs, but can only be manipulated through a set of functions and does not affect your ability to access individual elements of an array, nor is it affected by most "normal" array operations. 
+
+The pointer is, in fact, a handy way of maintaining the iterative state of an array without needing an external variable to do the job for us.
+
+The most direct way of manipulating the pointer of an array is by using a series of functions designed specifically for this purpose. 
+
+Upon starting an iteration over an array, the first step is usually to reset the pointer to its initial position using the reset() function; after that, we can move forward or backwards by one position by using prev() and next() respectively(3). 
+
+At any given point, we can access the value of the current element using current() and its key using key() . Here's an example:
+
+	$array = array('foo' => 'bar', 'baz', 'bat' => 2);
+	function displayArray($array) {
+	   reset($array);
+	   while (key($array) !== null) {
+	      echo key($array) .": " .current($array) . PHP_EOL;
+	      next($array);
+	   }
+	}
+
+foo: bar0: bazbat: 2
+
+Here, we have created a function that will display all the values in an array.
+
+First, we call reset() to rewind(4) the internal array pointer.
+
+Next, using a while loop, we display the current key and value, using the key() and current() functions.
+
+Finally, we advance(5) the array pointer, using next() . The loop continues until we no longer have a valid key.
+
+-----------------------------------------------------------
+(1) indicate /ˈɪndəˌkeɪt/ : to show that (something) exists or is true
+(2) handy /ˈhændi/ :  very useful or helpful
+(3) respective /rɪˈspɛktɪv/ :  belonging or relating to each one of the people or things that have been mentioned
+(4) rewind /riˈwaɪnd/ : to make (a recording) go backwards
+(5) advance /ədˈvɑːns/ : to move forward
+
+-----------------------------------------------------------
+It’s important to understand that there is no correlation(6) between the array pointer and the keys of the array’s elements. Moving ahead or back by one position simply gives you access to the elements of the array based on their position inside it, and not on their keys.
+
+Since you can iterate back-and-forth within an array by using its pointer, you could—in theory—start your iteration from the last element (using the end() function to reset the pointer to the bottom of the array) and then making your way to back the beginning:
+
+	$array = array (1, 2, 3);
+	end($array);
+	while (key ($array) !== null) {
+	   echo key($array) .": " .current($array) . PHP_EOL;
+	   prev($array);
+	}
+
+Note how, in the last two example, we check whether the iteration should continue by comparing the result of a call to key() on the array to NULL . This only works because we are using a non-identity operator—using the inequality operator(7) could cause some significant issues if one of the array’s elements has a key that evaluates to integer zero.
+
+-----------------------------------------------------------
+
+(6) correlation /ˌkorəˈleɪʃən/ : the relationship between things that happen or change together
+
+(7) inequality operator : !==

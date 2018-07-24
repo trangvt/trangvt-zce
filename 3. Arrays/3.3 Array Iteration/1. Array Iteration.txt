@@ -1,0 +1,15 @@
+Iteration(1) is probably one of the most common operations you will perform with arrays—besides creating them, of course. 
+
+Unlike what happens in other languages, where arrays are all enumerative(2) and contiguous(3), PHP’s arrays require a set of functionality that matches their flexibility, because “normal” looping structures cannot cope(4) with the fact that array keys do not need to be continuous—or, for that matter, enumerative. Consider, for example, this simple array:
+
+    $a = array ('a' => 10, 10 => 20, 'c' => 30);
+
+It is clear that none of the looping structures we have examined so far will allow you to cycle through the elements of the array—unless, that is, you happen to know exactly what its keys are, which is, at best, a severe limitation on your ability to manipulate a generic array.
+
+------------------------------------------------
+(1)
+Iteration /ˌitəˈrāSHən/ (n): sự lặp lại
+Iterate /ˈitəˌrāt/ (v)
+(2) enumerative : sự liệt kê
+(3) contiguous /kənˈtɪgjəwəs/ : used to describe things that touch each other or are immediately next to each other
+(4) cope with /ˈkoʊp/ : to deal with problems and difficult situations and try to come up with solutions

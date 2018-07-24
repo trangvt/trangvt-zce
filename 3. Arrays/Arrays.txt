@@ -1,0 +1,40 @@
+Chapter 3 - Arrays
+
+Arrays are the undisputed kings of advanced data structures in PHP.
+
+PHP arrays are extremely flexible—they allow numeric, auto-incremented keys,
+alphanumeric keys or a mix of both, and are capable of storing practically any value,
+including other arrays.
+
+With over seventy functions for manipulating them, arrays can do practically
+anything you can possibly imagine—and then some.
+
+-------------------------
+(1) undisputed /ˌʌndɪˈspjuːtəd/ : definitely true
+
+(2) advanced data : dữ liệu tiên tiến
+    /ədˈvɑːnst ˈdeɪtə ˈstrʌktʃɚ/
+advance     /ədˈvɑːns/
+advanced    /ədˈvɑːnst/
+
+(3)
+extreme /ɪkˈstriːm/
+flexible /ˈflɛksəbəl/
+
+(4)numeric /njʊˈmɛrɪk/
+of or relating to numbers
+
+(5) auto-incremented
+    /ˈɑːtoʊ ˈɪŋkrəməntd/
+
+(6) alphanumeric /ˌælfənjʊˈmɛrɪk/ : having or using letters and numbers
+
+(7) capable /ˈkeɪpəbəl/ : able to do something
+
+(8) practically /ˈpræktɪkli/ : almost or nearly
+
+(9) manipulate /məˈnɪpjəˌleɪt/ : to use or change (numbers, information, etc.) in a skillful way or for a particular purpose
+manipulates; manipulated; manipulating
+
+(10) and then some : and plenty more than that
+we got our money's worth and then some

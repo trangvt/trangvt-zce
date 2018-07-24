@@ -1,0 +1,76 @@
+1. OOP Fundamentals(1)
+
+While the goal(2) of this chapter is not to provide a guide to the concepts(3) of 
+object-oriented programming, it’s a good idea to take a quick look(4) at some of the fundamentals.
+
+-------------------------
+(1) fundamental /ˌfʌndəˈmɛntl̟/
+
+one of the basic and important parts of something : a fundamental part — usually plural
+(2) goal /ˈgoʊl/
+
+(3) concept(s) /ˈkɑːnˌsɛpt/
+an idea of what something is or how it works
+
+(4) to take a quick look
+-------------------------
+
+OOP revolves(5) around the concept of grouping code and data together in logical units called classes.
+
+This process is usually referred to as(6) encapsulation(7), or information hiding,
+since its goal is that of dividing(8) an application into separate entities(9)
+whose internal components can change without altering(10) their external interfaces.
+
+-------------------------
+(5) revolve around /rɪˈvɑːlv/
+to have (someone or something) as a main subject or interest
+
+(6) refer to (something or someone) as (something)
+to call (something or someone) by (a specified name or title)
+
+(7) encapsulate /ɪnˈkæpsəˌleɪt/ : đóng gói
+to show or express the main idea or quality of (something) in a brief way
+
+(8) divide /dəˈvaɪd/
+to separate (something) into two or more parts or pieces
+
+(9)
+separate /ˈsɛpərət/
+entity /ˈɛntəti/
+
+(10) alter /ˈɑːltɚ/
+to change (something)
+-------------------------
+
+Thus, classes are essentially(11) a representation(12) of a set of functions (also called methods)
+and variables (called properties) designed to work together and to provide a specific interface to the outside world.
+
+It is important to understand that classes are just blueprints(13) that cannot be used directly—
+they must be instantiated(14) into objects, which can then interact(15) with the rest of the application.
+
+You can think of classes as the blueprints for building a car,
+while objects are, in fact, the cars themselves as they come out of the production line(16).
+
+Just like a single set(17) of blueprints can be used to produce an arbitrary(18) number of cars,
+an individual class can normally be instantiated into an arbitrary number of objects.
+
+-------------------------
+(11) essential /ɪˈsɛnʃəl/
+extremely important and necessary
+very basic
+
+(12) representation /ˌrɛprɪˌzɛnˈteɪʃən/
+something (such as a picture or symbol) that stands for something else
+
+(13) blueprint /ˈbluːˌprɪnt/
+a photographic print that shows how something (such as a building) will be made
+
+(14) instantiated /inˈstanʃi:ˌāt/ : khởi tạo
+
+(15) interact /ˌɪntɚˈækt/
+
+(16) dây chuyền sản xuất
+
+(17) một bộ
+
+(18) arbitrary /ˈɑːbətrəri/

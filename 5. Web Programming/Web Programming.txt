@@ -1,0 +1,20 @@
+Chapter 5 : Web Programming
+
+Although you will find it used in scenarios as diverse as quality control and point-of-sale systems, PHP was designed primarily as a Web-development language, and that remains its most common use to this day.
+
+Mặc dù bạn sẽ thấy nó được sử dụng trong các kịch bản đa dạng như hệ thống kiểm soát chất lượng và các hệ thống bán lẻ
+
+In this chapter, we focus on the features of PHP that make it such a great choice for developing Web applications, as well as some Web-related topics that you should be familiar with in order to take the exam.
+
+-------------------------
+(1) scenario /səˈnɑːriəʊ/
+scenarios
+
+(2) diverse /daɪˈvɚs/
+different from each other
+
+(3) feature /ˈfiːtʃɚ/
+an interesting or important part, quality, ability, etc.
+
+(4) familiar with /fəˈmɪljɚ/
+too friendly
