@@ -1,12 +1,12 @@
-1. Constants, Static Methods and Properties(P123)
+Constants, Static Methods and Properties(P123)
 
-Along with PP 4, PHP 5 also implements static methods and properties.
+Along with PPP, PHP 5 also implements static methods and properties.
 Unlike regular methods and properties, their static counterparts exist and are accessible as part of a class itself, as opposed to existing only within the scope of one of its instances.
 This allows you to treat classes as true containers of interrelated functions and data elements — which, in turn, is a very handy expedient to avoid naming conflicts.
 
-Cùng với PP 4, PHP 5 cũng implement các static method và các static propperty
-Không giống như các method và property thông thường, các đối tượng static tồn tại và có thể truy cập được như là một phần của chính lớp đó, khác với hiện tại chỉ trong phạm vi một trong các instances của nó.
-Điều này cho phép bạn đối xử với các class như các container thực sự của các function liên quan và các data element - rất tiện để tránh xung đột tên
+Cùng với PPP, PHP 5 cũng implement static methods và properties.
+Không giống như methods và properties thông thường, các đối tượng static tồn tại và có thể truy cập được như là một phần của chính lớp đó, khác với hiện tại chỉ trong phạm vi 1 trong các instances của nó.
+Điều này cho phép bạn đối xử với classes như các container thực sự của các function liên quan và các data element - rất tiện để tránh xung đột tên
 -------------------------
 (*) counterparts counterpart /ˈkaʊntɚˌpɑɚt/ : đối tượng
 someone or something that has the same job or purpose as another
@@ -21,6 +21,14 @@ to have a close or shared relationship
 
 (*) expedient /ɪkˈspiːdijənt/
 a very handy expedient : rất tiện lợi
+
+(*) strict /ˈstrɪkt/
+stricter syntax : cú pháp chặt chẽ hơn
+
+(*) convey /kənˈveɪ/
+to take or carry
+
+(*) notation /noʊˈteɪʃən/ kí hiệu
 -------------------------
 
 While PHP 4 allowed you to call any method of a class statically using the scope resolution operator ::
@@ -28,9 +36,9 @@ While PHP 4 allowed you to call any method of a class statically using the scope
 You should keep in mind that PHP 5 is very strict about the use of static properties and methods.
 For example, calling static properties using object notation will result in a notice:
 
-Trong khi PHP 4 cho phép bạn gọi bất kì method của 1 static class bằng toán tử :: , PHP 5 giới thiệu 1 cú pháp chặt chẽ hơn, sử dụng từ khóa STATIC để truyền tải việc sử dụng các prorerty và method như vậy.
-Bạn nên nhớ rằng PHP 5 rất chặt chẽ về cách dùng các static property và method.
-Ví dụ, gọi static property dùng kí hiệu object (-> là object notation) sẽ dẫn tới thông báo:
+Trong khi PHP 4 cho phép bạn gọi bất kì method của 1 static class bằng toán tử :: , PHP 5 giới thiệu 1 cú pháp chặt chẽ hơn, sử dụng từ khóa STATIC để truyền tải việc sử dụng prorerties và methods như vậy.
+Bạn nên nhớ rằng PHP 5 rất chặt chẽ về cách dùng các static prorerties và methods.
+Ví dụ, gọi static prorerties dùng kí hiệu object (-> là object notation) sẽ dẫn tới thông báo:
 
 <?php
 class foo {
@@ -53,14 +61,6 @@ Notice: Undefined property: foo::$bar in ... on line 11
 It is necessary for the static definition to follow the visibility definition; if no visibility definition is declared, the static method or property is considered public.
 
 Nó là cần thiết cho việc định nghĩa static tuân theo phạm vi hiển thị (public, protected, private); nếu không có định nghĩa phạm vi hiển thị được khai báo, static method hoặc property được cân nhắc là public
--------------------------
-(*) strict /ˈstrɪkt/
-stricter syntax : cú pháp chặt chẽ hơn
-
-(*) convey /kənˈveɪ/
-to take or carry
-
-(*) notation /noʊˈteɪʃən/ kí hiệu
 
 -------------------------
 https://toidicode.com/static-va-final-trong-php-huong-doi-tuong-105.html
@@ -107,7 +107,3 @@ $a->$name //Lỗi vì là private property cua ConNguoi
 echo $a::getName();
 echo $a->getName();
 ?>
-
-FINAL
-Class: không lớp nào có thể extends được
-Method: Không method nào override được

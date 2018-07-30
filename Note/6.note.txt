@@ -16,6 +16,9 @@ Static Methods and Properties
 Interfaces & Abstract Classes
 
 DBMSs
+
+declared > instantiate
+Sau khi khai báo, phải khởi tạo để dùng
 -------------------------
 fundamental /ˌfʌndəˈmɛntl̟/
 
