@@ -52,23 +52,19 @@ $d = new d();
 echo '<pre>';
 $a->test(); //Outputs "a::test called"
 $b->test(); //Outputs "b::test called"
-$b->func(); //Outputs "a::test called"
+$b->func(); //Outputs "a::func called"
 $c->test(); //Outputs "b::test called"
 $d->test(); //Outputs "b::test called"
 echo '------</pre>';
 ?>
 
-In this script, we start by declaring a class called a.
-
-We then declare the class b, which extends a.
+In this script, we start by declaring a class called a. We then declare the class b, which extends a.
 As you can see, this class also has a test() method, which overrides the one declared in a, thus outputting b::test called.
-
 Note, however, that we can still access a's other methods - so that calling $b->func() effectively executes the function in the a class.
 
 Naturally, extending objects in this fashion would be very limiting, since you would only be able to override the functionality provided by parent classes, without any opportunity for reuse (unless you implement your methods using different names).
-
 Luckily, parent classes can be accessed using the special parent:: namespace, as we did for class c above;
-you can also access any other ancestor classes by addressing their methods by name — like we did, for example, in class d.
+you can also access any other ancestor classes by addressing their methods by name - like we did, for example, in class d.
 
 -------------------------
 (*) effectively executes : thực hiện hiệu quả

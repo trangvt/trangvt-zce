@@ -21,10 +21,10 @@ declaration(s) /ˌdɛkləˈreɪʃən/
 
 (*) probably /ˈprɑːbəbli/
 
-(*) advise /ədˈvaɪz/ thông báo
+(*) advises /ədˈvaɪz/ thông báo
 to give information to (someone)
 
-(*) interpreter /ɪnˈtɚprətɚ/
+(*) interpreter /inˈtərpritər/
 
 (*) combination /ˌkɑːmbəˈneɪʃən/
 
